@@ -2,6 +2,10 @@ const fileInput = document.getElementById("file");
 const square = document.getElementById("square");
 const downloadButton = document.getElementById("download");
 
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("img-bg").src = moldura;
+});
+
 square.style.display = "none";
 
 fileInput.addEventListener("change", (event) => {
